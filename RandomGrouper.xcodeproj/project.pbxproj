@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D02F9B31E3ACADD00556DB1 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D02F9B21E3ACADD00556DB1 /* GroupTableViewCell.swift */; };
+		8D02F9B51E3ADC8E00556DB1 /* GroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D02F9B41E3ADC8E00556DB1 /* GroupTableViewController.swift */; };
 		8D22FD5C1E3724F2008CECAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D22FD5B1E3724F2008CECAE /* AppDelegate.swift */; };
-		8D22FD5E1E3724F2008CECAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D22FD5D1E3724F2008CECAE /* ViewController.swift */; };
+		8D22FD5E1E3724F2008CECAE /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D22FD5D1E3724F2008CECAE /* GroupViewController.swift */; };
 		8D22FD611E3724F2008CECAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D22FD5F1E3724F2008CECAE /* Main.storyboard */; };
 		8D22FD631E3724F2008CECAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D22FD621E3724F2008CECAE /* Assets.xcassets */; };
 		8D22FD661E3724F2008CECAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D22FD641E3724F2008CECAE /* LaunchScreen.storyboard */; };
 		8D22FD711E3724F2008CECAE /* RandomGrouperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D22FD701E3724F2008CECAE /* RandomGrouperTests.swift */; };
+		8D22FD7C1E37D974008CECAE /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D22FD7B1E37D974008CECAE /* RatingControl.swift */; };
+		8D22FD7E1E380588008CECAE /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D22FD7D1E380588008CECAE /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D02F9B21E3ACADD00556DB1 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		8D02F9B41E3ADC8E00556DB1 /* GroupTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupTableViewController.swift; sourceTree = "<group>"; };
 		8D22FD581E3724F2008CECAE /* RandomGrouper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomGrouper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D22FD5B1E3724F2008CECAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D22FD5D1E3724F2008CECAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D22FD5D1E3724F2008CECAE /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
 		8D22FD601E3724F2008CECAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D22FD621E3724F2008CECAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D22FD651E3724F2008CECAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +42,8 @@
 		8D22FD6C1E3724F2008CECAE /* RandomGrouperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomGrouperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D22FD701E3724F2008CECAE /* RandomGrouperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomGrouperTests.swift; sourceTree = "<group>"; };
 		8D22FD721E3724F2008CECAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D22FD7B1E37D974008CECAE /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		8D22FD7D1E380588008CECAE /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +86,11 @@
 			isa = PBXGroup;
 			children = (
 				8D22FD5B1E3724F2008CECAE /* AppDelegate.swift */,
-				8D22FD5D1E3724F2008CECAE /* ViewController.swift */,
+				8D22FD5D1E3724F2008CECAE /* GroupViewController.swift */,
+				8D22FD7B1E37D974008CECAE /* RatingControl.swift */,
+				8D22FD7D1E380588008CECAE /* Person.swift */,
+				8D02F9B21E3ACADD00556DB1 /* GroupTableViewCell.swift */,
+				8D02F9B41E3ADC8E00556DB1 /* GroupTableViewController.swift */,
 				8D22FD5F1E3724F2008CECAE /* Main.storyboard */,
 				8D22FD621E3724F2008CECAE /* Assets.xcassets */,
 				8D22FD641E3724F2008CECAE /* LaunchScreen.storyboard */,
@@ -199,8 +211,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D22FD5E1E3724F2008CECAE /* ViewController.swift in Sources */,
+				8D22FD5E1E3724F2008CECAE /* GroupViewController.swift in Sources */,
+				8D22FD7C1E37D974008CECAE /* RatingControl.swift in Sources */,
+				8D22FD7E1E380588008CECAE /* Person.swift in Sources */,
 				8D22FD5C1E3724F2008CECAE /* AppDelegate.swift in Sources */,
+				8D02F9B31E3ACADD00556DB1 /* GroupTableViewCell.swift in Sources */,
+				8D02F9B51E3ADC8E00556DB1 /* GroupTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +422,7 @@
 				8D22FD771E3724F2008CECAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D22FD781E3724F2008CECAE /* Build configuration list for PBXNativeTarget "RandomGrouperTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +431,7 @@
 				8D22FD7A1E3724F2008CECAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
